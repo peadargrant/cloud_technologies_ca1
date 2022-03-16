@@ -16,12 +16,7 @@ INSERT CASE STUDY HERE.
 
 # Deliverables
 
-## Diagram (10%)
-
-You will present your designed system in a GraphViz diagram.
-File should be named `diagram.gv`.
-
-## CloudFormation file (30%)
+## CloudFormation file (40%)
 
 The CloudFormation file should setup all resources needed.
 File should be named `template.json`.
