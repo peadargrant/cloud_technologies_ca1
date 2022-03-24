@@ -21,12 +21,12 @@ This will be discussed individually with you with in class.
 
 Description of your case study following approval and feedback `description.txt`.
 
-## CloudFormation file (40%)
+## CloudFormation file (35%)
 
 The CloudFormation file should setup all resources needed.
 File should be named `template.json`.
 
-## Setup file (20%)
+## Setup file (15%)
 
 The setup file should create a stack from your cloudformation file, and should be called `setup.ps1`.
 It should carry out any other setup activities pre/post the stack creation. 
@@ -40,6 +40,9 @@ You may need to include other resources (e.g. other scripts / programs / data fi
 
 The teardown file `teardown.ps1` should remove all resources created, including calling `aws cloudformation delete-stack` on the stack created. 
 
+## Development process (10%)
+
+Use of version control evidenced by Git commits.
 
 # Checking your submission for compliance
 
